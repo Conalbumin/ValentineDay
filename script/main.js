@@ -170,6 +170,10 @@ const animationTimeline = () => {
       },
       0.2 // Reduced duration
     )
+    .to(".six", 5, {
+      // Set the duration to 5 seconds
+      opacity: 1, // Ensure the element remains visible
+    })
     .to(".six", 1, {
       // Reduced duration
       opacity: 0,
